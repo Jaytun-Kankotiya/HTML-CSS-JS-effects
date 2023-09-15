@@ -1,0 +1,25 @@
+html{
+    height:100%;
+    width:100%;
+}
+
+#box{
+    height:500px;
+    width:350px;
+    overflow: hidden;
+    background-color:aliceblue;
+}
+
+#box img{
+    height:100%;
+    width:100%;
+    object-fit: cover;
+    transition: all ease 0.5s;
+}
+
+#box:hover img{
+    scale: 1.2;
+}
+div{
+    margin: 100px;
+}
