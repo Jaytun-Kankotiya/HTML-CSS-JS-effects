@@ -2,12 +2,14 @@ html, body{
     height:100%;
     width:100%;
 }
-
+/*(1)image shadow*/
 img{
     height:500px;
     width:400px;
     filter: drop-shadow(10px 10px 20px black);
 }
+
+/*(2)Text border*/
 
 h1{
     font-size: 110px;
