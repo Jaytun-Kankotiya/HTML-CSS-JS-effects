@@ -3,6 +3,7 @@ html{
     width:100%;
 }
 
+/*(1)Image Hover*/
 #box{
     height:500px;
     width:350px;
@@ -22,4 +23,23 @@ html{
 }
 div{
     margin: 100px;
+}
+
+/*(2)Button Hover*/
+
+button{
+    font-size:16px;
+    font-weight:700;
+    border-radius:5px;
+    padding:12px 20px;
+    margin:50px;
+    background-color: rgb(72, 213, 204);
+    border:none;
+    color:#064c6d;
+    transition:all ease 0.5s;
+
+}
+
+button:hover{
+    box-shadow:5px 5px 10px #000;
 }
