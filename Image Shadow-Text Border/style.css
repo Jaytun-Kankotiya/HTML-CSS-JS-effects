@@ -2,20 +2,39 @@ html, body{
     height:100%;
     width:100%;
 }
-/*(1)image shadow*/
+
+#page1{
+    height: 100%;
+    width:100%;
+}
+
+body::-webkit-scrollbar{
+    background-color:transparent;
+}
+
+body::-webkit-scrollbar-thumb{
+    background:linear-gradient(orange,red,blue,yellow);
+    border-radius:10px;
+}
+
+
 img{
     height:500px;
     width:400px;
-    filter: drop-shadow(10px 10px 20px black);
+    filter: drop-shadow(10px 10px 30px black);
 }
-
-/*(2)Text border*/
 
 h1{
     font-size: 110px;
     font-weight: 900;
     margin: 10px;
     -webkit-text-stroke:4px #000;
-    color:cadetblue;
+    color:#86a8b9;
     font-family:Arial, Helvetica, sans-serif;
+
+}
+
+h1::selection{
+    color:rgb(226, 127, 14);
+    background-color:green;
 }
