@@ -3,6 +3,7 @@ html, body{
     width:100%;
 }
 
+/*(1)Colorfull slider*/
 #page1{
     height: 100%;
     width:100%;
@@ -17,13 +18,14 @@ body::-webkit-scrollbar-thumb{
     border-radius:10px;
 }
 
-
+/*(2)Image Shadow*/
 img{
     height:500px;
     width:400px;
     filter: drop-shadow(10px 10px 30px black);
 }
 
+/*(3)Text Border*/
 h1{
     font-size: 110px;
     font-weight: 900;
@@ -34,6 +36,7 @@ h1{
 
 }
 
+/*(4)color change while Text selection */
 h1::selection{
     color:rgb(226, 127, 14);
     background-color:green;
